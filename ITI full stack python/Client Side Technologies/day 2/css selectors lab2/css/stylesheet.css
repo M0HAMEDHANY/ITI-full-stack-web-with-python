@@ -1,0 +1,38 @@
+.itiImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,
+h2 {
+    color: red;
+}
+
+strong {
+    color: red;
+}
+
+
+li ::marker {
+    color: red;
+}
+
+.red {
+    color: red;
+}
+
+.location {
+    color: blue;
+}
+
+label,
+legend {
+
+    color :blue; 
+}
+
+
+#twitter{
+    color: red;
+}

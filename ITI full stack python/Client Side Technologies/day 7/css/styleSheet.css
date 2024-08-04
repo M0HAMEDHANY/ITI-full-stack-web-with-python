@@ -1,0 +1,33 @@
+body {
+    box-sizing: border-box;
+    background-color: teal;
+    gap: 10px;
+}
+
+#slideshow-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#slideshow {
+    margin-top: 20px;
+    width: 25%;
+    height: auto;
+    border: 2px solid black;
+}
+
+#controls {
+
+    margin-top: 20px;
+}
+
+#controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: 2px solid #37f1aa;
+    background-color: black;
+    color: white;
+}

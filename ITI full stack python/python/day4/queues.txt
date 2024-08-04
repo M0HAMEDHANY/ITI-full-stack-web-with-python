@@ -1,0 +1,1 @@
+ queue name :Queue1  ,queue size :10,  queue elements :rust,javascript,java

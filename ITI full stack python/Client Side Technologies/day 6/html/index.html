@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+</style>
+
+<body>
+    <div>
+        <form method="Get" id="userform">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+            <br>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" required>
+            <br>
+            <label for="birthday">Birthday</label>
+            <input type="date" name="birthday" id="birthday" required>
+            <br>
+            <label for="address">address</label>
+            <input type="text" name="address" id="address" required>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

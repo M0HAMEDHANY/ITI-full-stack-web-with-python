@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.header {
+    background-image: url('../media/fog-covering-snowy-forest-silhouette-concept_176841-62815.avif');
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.header button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background: transparent;
+    color: beige;
+    border-radius: 25px;
+    border-color: teal;
+
+}
+
+.header button:hover {
+    background-color: rgb(45, 171, 171);
+}
+
+.row1 {
+    padding: 20px;
+    background-color: teal;
+    color: white;
+}
+
+.row2 {
+    padding: 20px;
+    background-color: beige;
+    color: black;
+}
+
+.content2 {
+    display: flex;
+    color: white;
+}
+
+.column1,
+.column3 {
+    padding: 20px;
+    background-color: teal;
+}
+
+.column2 {
+    padding: 20px;
+    background-color: beige;
+    color: black;
+}
