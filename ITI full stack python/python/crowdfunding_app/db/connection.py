@@ -6,8 +6,8 @@ def get_db_connection():
     try:
         conn = psycopg2.connect(
             dbname="crowdfunding",
-            user="postgres",
-            password="pmd936(#^",
+            user="", # user name
+            password="", # password
             host="localhost",
             port="5432",
         )
